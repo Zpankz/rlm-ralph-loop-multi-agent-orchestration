@@ -1,20 +1,20 @@
 {
-  "name": "distil-marketplace",
+  "name": "refactor-marketplace",
   "owner": {
     "name": "Zpankz"
   },
   "metadata": {
-    "description": "Distil orchestration skill marketplace",
+    "description": "Refactor orchestration skill marketplace",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "distil",
+      "name": "refactor",
       "description": "Recursive context modularization, dependency analysis, and hyperedge bridge extraction",
       "source": "./",
       "strict": false,
       "skills": [
-        "./distil"
+        "./refactor"
       ]
     }
   ]

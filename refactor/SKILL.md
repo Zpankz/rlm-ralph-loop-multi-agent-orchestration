@@ -1,9 +1,9 @@
 ---
-name: distil
+name: refactor
 description: "Execute recursive, dependency-aware context modularization and traversal for any code or document corpus. Use when you need to atomize context, classify and interconnect concepts, infer constraints and dependencies, create bridge files/symlinks/hyperedges, and produce a refined directed acyclic dependency model with progressive confidence gating."
 ---
 
-# Distil
+# Refactor
 
 ## Purpose
 
@@ -83,7 +83,7 @@ If a repo style requires a different layout, mirror these artifacts with equival
 
 The bundled script is intended to be copied/adapted into any workspace:
 
-- `/Users/mikhail/Projects/Context-Engineering/Distil/distil/scripts/rlm_orchestrator.py`
+- `/Users/mikhail/Projects/Context-Engineering/Distil/refactor/scripts/rlm_orchestrator.py`
 
 Use this as the default execution engine. It has zero mandatory third-party dependencies.
 
@@ -228,9 +228,9 @@ Abort and revise if any of these are true:
 
 ## Reference map
 
-- `/Users/mikhail/Projects/Context-Engineering/Distil/distil/scripts/rlm_orchestrator.py` is the implementation core.
-- `/Users/mikhail/Projects/Context-Engineering/Distil/distil/references/process-model.md` explains the conceptual mapping.
-- `/Users/mikhail/Projects/Context-Engineering/Distil/distil/references/ulcb1-tree-search.md` explains recursive stopping criteria.
+- `/Users/mikhail/Projects/Context-Engineering/Distil/refactor/scripts/rlm_orchestrator.py` is the implementation core.
+- `/Users/mikhail/Projects/Context-Engineering/Distil/refactor/references/process-model.md` explains the conceptual mapping.
+- `/Users/mikhail/Projects/Context-Engineering/Distil/refactor/references/ulcb1-tree-search.md` explains recursive stopping criteria.
 
 ## Non-goals
 
@@ -295,6 +295,6 @@ Only then should the pipeline emit its final index and confidence summary.
 
 ## Reference map
 
-- `/Users/mikhail/Projects/Context-Engineering/Distil/distil/references/ontology-schema.md` for schema details.
-- `/Users/mikhail/Projects/Context-Engineering/Distil/distil/references/process-model.md` for the conceptual model.
-- `/Users/mikhail/Projects/Context-Engineering/Distil/distil/references/ulcb1-tree-search.md` for recursive control and stopping conditions.
+- `/Users/mikhail/Projects/Context-Engineering/Distil/refactor/references/ontology-schema.md` for schema details.
+- `/Users/mikhail/Projects/Context-Engineering/Distil/refactor/references/process-model.md` for the conceptual model.
+- `/Users/mikhail/Projects/Context-Engineering/Distil/refactor/references/ulcb1-tree-search.md` for recursive control and stopping conditions.

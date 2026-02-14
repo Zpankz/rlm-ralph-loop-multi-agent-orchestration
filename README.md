@@ -1,4 +1,4 @@
-# RLM-Ralph Loop Multi-Agent Orchestration Skill
+# Distil Skill
 
 A production-ready Agent Skill that builds recursive dependency-aware modular architecture from raw context using an atom-of-thought pipeline, semantic graph analysis, adaptive decomposition, and cycle/bridge extraction.
 
@@ -32,13 +32,13 @@ python3 scripts/rlm_orchestrator.py --input <INPUT_DIR> --output <OUT_DIR>
 
 ```bash
 # Install this skill to all supported local agents
-npx skills install Zpankz/rlm-ralph-loop-multi-agent-orchestration/rlm-ralph-loop-multi-agent-orchestration
+npx skills install Zpankz/distil/distil
 
 # Install to only Claude's skills directory
-npx skills install Zpankz/rlm-ralph-loop-multi-agent-orchestration/rlm-ralph-loop-multi-agent-orchestration --agent claude
+npx skills install Zpankz/distil/distil --agent claude
 
 # Dry-run preview
-npx skills install Zpankz/rlm-ralph-loop-multi-agent-orchestration/rlm-ralph-loop-multi-agent-orchestration --agent claude --dry-run
+npx skills install Zpankz/distil/distil --agent claude --dry-run
 ```
 
 ## Claude plugin install
@@ -46,8 +46,8 @@ npx skills install Zpankz/rlm-ralph-loop-multi-agent-orchestration/rlm-ralph-loo
 This repo includes a Claude marketplace manifest. After publishing, a Claude user can add the marketplace and install the plugin:
 
 ```bash
-/plugin marketplace add https://github.com/Zpankz/rlm-ralph-loop-multi-agent-orchestration
-/plugin install rlm-orchestration@rlm-orchestration-marketplace
+/plugin marketplace add https://github.com/Zpankz/distil
+/plugin install distil@distil-marketplace
 ```
 
 ## Supported runtime options

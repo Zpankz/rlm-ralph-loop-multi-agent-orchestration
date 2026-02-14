@@ -1,20 +1,20 @@
 {
-  "name": "rlm-orchestration-marketplace",
+  "name": "distil-marketplace",
   "owner": {
     "name": "Zpankz"
   },
   "metadata": {
-    "description": "RLM-Ralph Loop multi-agent orchestration skill marketplace",
+    "description": "Distil orchestration skill marketplace",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "rlm-orchestration",
+      "name": "distil",
       "description": "Recursive context modularization, dependency analysis, and hyperedge bridge extraction",
       "source": "./",
       "strict": false,
       "skills": [
-        "./rlm-ralph-loop-multi-agent-orchestration"
+        "./distil"
       ]
     }
   ]

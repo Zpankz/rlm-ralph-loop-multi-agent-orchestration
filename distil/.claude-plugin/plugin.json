@@ -1,5 +1,5 @@
 {
-  "name": "rlm-orchestration",
+  "name": "distil",
   "version": "1.0.0",
   "description": "Recursive context modularization and dependency-aware orchestration skill with graph analytics, bridge generation, and DAG formalization.",
   "author": {
